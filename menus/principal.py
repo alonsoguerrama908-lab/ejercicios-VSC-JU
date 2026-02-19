@@ -1,17 +1,14 @@
-from ejercicios.formulas.ejercicio_1 import ejercicio_1
-from ejercicios.formulas.ejercicio_2 import ejercicio_2
-from ejercicios.conversiones.ejercicio_3 import ejercicio_3
-from ejercicios.conversiones.ejercicio_4 import ejercicio_4
-from ejercicios.conversiones.ejercicio_5 import ejercicio_5
-from ejercicios.formulas.ejercicio_6 import ejercicio_6
-from ejercicios.series.ejercicio_7 import ejercicio_7
-from ejercicios.series.ejercicio_8 import ejercicio_8
-from ejercicios.series.ejercicio_9 import ejercicio_9
-from ejercicios.series.ejercicio_10 import ejercicio_10
-from ejercicios.series.ejercicio_11 import ejercicio_11
-
-
-
+from clases.ejercicio1_poo import Ejercicio1
+from clases.ejercicio2_poo import Ejercicio2
+from clases.ejercicio3_poo import Ejercicio3
+from clases.ejercicio4_poo import Ejercicio4
+from clases.ejercicio5_poo import Ejercicio5
+from clases.ejercicio6_poo import Ejercicio6
+from clases.ejercicio7_poo import Ejercicio7
+from clases.ejercicio8_poo import Ejercicio8
+from clases.ejercicio9_poo import Ejercicio9
+from clases.ejercicio10_poo import Ejercicio10
+from clases.ejercicio11_poo import Ejercicio11
 
 
 def menu_principal():
@@ -32,27 +29,71 @@ def menu_principal():
         op = int(input("Elija opcion: "))
         match(op):
             case 1:
-                ejercicio_1()
+                #ejercicio_1()
+                test= Ejercicio1()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 2:
-                ejercicio_2()
+                #ejercicio_2()
+                test= Ejercicio2()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 3:
-                ejercicio_3()
+                #ejercicio_3()
+                test= Ejercicio3()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 4:
-                ejercicio_4()
+                #ejercicio_4()
+                test= Ejercicio4()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 5:
-                ejercicio_5()
+                #ejercicio_5()
+                test= Ejercicio5()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 6:
-                ejercicio_6()
+                #ejercicio_6()
+                test= Ejercicio6()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 7:
-                ejercicio_7()
+                #ejercicio_7()
+                test= Ejercicio7()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 8:
-                ejercicio_8()
+                #ejercicio_8()
+                test= Ejercicio8()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 9:
-                ejercicio_9()
+                #ejercicio_9()
+                test= Ejercicio9()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 10:
-                ejercicio_10()
+                #ejercicio_10()
+                test= Ejercicio10()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 11:
-                ejercicio_11()
+                #ejercicio_11()
+                test= Ejercicio11()
+                test.leerDatos()
+                test.realizarCalculo()
+                test.mostrarResultado()
             case 12:
                 break
             case _:

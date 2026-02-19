@@ -1,6 +1,8 @@
-def ejercicio_10():
-    num= int(input("Ingresa un número: "))
-    for i in range(num):
-        for j in range(i+1):
-            print("0",end="")
-    print()
+def ejercicio_triangulo():
+    num = int(input("Ingrese un número entero: "))
+
+    for i in range(1, num + 1):
+        print("0" * i)
+
+# Llamada a la función
+ejercicio_triangulo()
